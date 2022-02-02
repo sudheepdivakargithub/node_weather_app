@@ -67,4 +67,4 @@ app.get('*', (req, res) => {
     res.render("404", { title: "404", message: "Error. Page not found.", name: "Sudheep Divakar" })
 })
 
-app.listen(PORT, () => console.log("Server is up in port " + PORT))
+app.listen(port, () => console.log("Server is up in port " + port))
